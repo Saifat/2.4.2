@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="UsersProject:war exploded" />
+      <artifact name="2.3.1.CRUD:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -19,155 +19,71 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f9fc5c1-40ac-4a9c-85c7-064ee9c71c31" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Uesrslist/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Uesrslist/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Uesrslist/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Uesrslist/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Uesrslist/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Uesrslist/Uesrslist.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Uesrslist/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Uesrslist/src/webapp/WEB-INF/pages/Users.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/536cb359-f87e-4f99-9758-1573fd0c414e.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/536cb359-f87e-4f99-9758-1573fd0c414e/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UsersProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/config/AppInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/config/HibernateConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/dao/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/service/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/new.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/users.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/classes/web/config/AppInit.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/classes/web/config/HibernateConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/classes/web/config/WebConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/classes/web/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/classes/web/dao/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/classes/web/dao/UserDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/classes/web/model/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/classes/web/model/UsersEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/classes/web/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/classes/web/service/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/lib/FastInfoset-1.2.15.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/lib/antlr-2.7.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/lib/aspectjrt-1.9.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/lib/attoparser-2.0.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/lib/byte-buddy-1.10.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/lib/classmate-1.5.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/lib/dom4j-2.1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/lib/hibernate-commons-annotations-5.1.0.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/lib/hibernate-core-5.4.22.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/lib/hibernate-entitymanager-5.4.22.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/lib/istack-commons-runtime-3.0.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/lib/jandex-2.1.3.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/lib/javassist-3.24.0-GA.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/lib/javax.persistence-api-2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/lib/jaxb-api-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/lib/jaxb-runtime-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/lib/mysql-connector-java-8.0.21.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/lib/protobuf-java-3.11.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/lib/slf4j-api-1.7.26.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/lib/spring-aop-5.2.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/lib/spring-beans-5.2.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/lib/spring-context-5.2.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/lib/spring-context-5.2.9.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/lib/spring-core-5.2.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/lib/spring-data-commons-2.3.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/lib/spring-data-jpa-2.3.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/lib/spring-expression-5.2.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/lib/spring-jcl-5.2.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/lib/spring-jdbc-5.2.9.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/lib/spring-orm-5.2.9.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/lib/spring-tx-5.2.9.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/lib/spring-web-5.2.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/lib/spring-webmvc-5.2.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/lib/stax-ex-1.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/lib/thymeleaf-3.0.9.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/lib/thymeleaf-spring5-3.0.9.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/lib/txw2-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/lib/unbescape-1.1.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/pages/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/pages/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/pages/users.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/web/config/AppInit.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/web/config/HibernateConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/web/config/WebConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/web/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/web/dao/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/web/dao/UserDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/web/model/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/web/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/web/service/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tableUsers/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tableUsers/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tableUsers/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tableUsers/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tableUsers/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tableUsers/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tableUsers/tableUsers.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test1/test1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/src/main/webapp/WEB-INF/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/untitled.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled1/src/main/java/web/config/AppInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled1/src/main/java/web/config/HibernateConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled1/src/main/java/web/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled1/src/main/java/web/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled1/src/main/java/web/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled1/src/main/java/web/dao/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled1/src/main/java/web/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled1/src/main/java/web/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled1/src/main/java/web/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled1/src/main/java/web/service/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled1/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled1/src/main/webapp/WEB-INF/pages/addUser.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled1/src/main/webapp/WEB-INF/pages/allUsers.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled1/src/main/webapp/WEB-INF/pages/editUser.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled1/src/main/webapp/WEB-INF/pages/error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled1/src/main/webapp/WEB-INF/pages/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled1/untitled1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../usertable/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../usertable/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../usertable/src/main/webapp/WEB-INF/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../usertable/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../usertable/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../usertable/usertable.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../testuser/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../testuser/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../testuser/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../testuser/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../testuser/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../testuser/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../testuser/src/main/java/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../testuser/src/main/java/config/WebInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../testuser/src/main/java/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../testuser/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2.2.1. spring_hibernate/spring_hibernate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2.2.1. spring_hibernate/spring_hibernate.iml" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/javax/servlet/jsp/jstl/jstl/1.2/jstl-1.2.jar.lastUpdated" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/javax/servlet/jsp/jstl/jstl/1.2/jstl-1.2.pom.lastUpdated" afterDir="false" />
+      <change afterPath="$USER_HOME$/AppData/Local/Google/Chrome/User Data/Default/IndexedDB/https_app.slack.com_0.indexeddb.blob/1/01/119" afterDir="false" />
+      <change afterPath="$USER_HOME$/AppData/Local/JetBrains/IntelliJIdea2020.2/event-log-data/logs/FUS/0a8c-429c-b72d-4c9dd18a93db-202.7319.50-release.log" afterDir="false" />
+      <change afterPath="$USER_HOME$/AppData/Local/JetBrains/IntelliJIdea2020.2/event-log-data/logs/FUS/7f75-42dc-8cec-fc5a1cc40126-202.7319.50-release.log" afterDir="false" />
+      <change afterPath="$USER_HOME$/AppData/Local/JetBrains/IntelliJIdea2020.2/tomcat/Unnamed_UsersProject/conf/Catalina/localhost/2_3_1_CRUD_war_exploded.xml" afterDir="false" />
+      <change afterPath="$USER_HOME$/AppData/Local/JetBrains/IntelliJIdea2020.2/tomcat/Unnamed_UsersProject/conf/server.xml.0" afterDir="false" />
+      <change afterPath="$USER_HOME$/AppData/Local/JetBrains/IntelliJIdea2020.2/tomcat/Unnamed_UsersProject/conf/web.xml.0" afterDir="false" />
+      <change afterPath="$USER_HOME$/AppData/Local/JetBrains/IntelliJIdea2020.2/tomcat/Unnamed_UsersProject/jmxremote.access" afterDir="false" />
+      <change afterPath="$USER_HOME$/AppData/Local/JetBrains/IntelliJIdea2020.2/tomcat/Unnamed_UsersProject/jmxremote.password" afterDir="false" />
+      <change afterPath="$USER_HOME$/AppData/Local/Microsoft/Windows/INetCache/IE/NNIFB64F/x[1]" afterDir="false" />
+      <change afterPath="$USER_HOME$/AppData/Local/Packages/Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy/LocalState/TargetedContentCache/v3/280815/7416da77095a471793a20f2d0c2050c6_1" afterDir="false" />
+      <change afterPath="$USER_HOME$/AppData/Local/Packages/Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy/LocalState/TargetedContentCache/v3/338389/b98ff604631f4e769f8098c7f0633e0d_1" afterDir="false" />
+      <change afterPath="$USER_HOME$/AppData/Local/Packages/Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy/LocalState/TargetedContentCache/v3/88000045/dccd5ffd3c464bab928ddeeaf62959cd_1" afterDir="false" />
+      <change afterPath="$USER_HOME$/AppData/Local/Packages/Microsoft.Windows.Cortana_cw5n1h2txyewy/AC/TokenBroker/Cache/fbaf94e759052658216786bfbabcdced1b67a5c2.tbres" afterDir="false" />
+      <change afterPath="$USER_HOME$/AppData/Local/Temp/catalina.bat.Y" afterDir="false" />
+      <change afterPath="$USER_HOME$/Desktop/Копии проектов/Hibernate" afterDir="false" />
+      <change afterPath="$USER_HOME$/Desktop/Копии проектов/UsersProject/.idea/UsersProject.iml" afterDir="false" />
+      <change afterPath="$USER_HOME$/Desktop/Копии проектов/UsersProject/UsersProject.iml" afterDir="false" />
+      <change afterPath="$USER_HOME$/Desktop/Копии проектов/UsersProject2.1/.idea/UsersProject.iml" afterDir="false" />
+      <change afterPath="$USER_HOME$/Desktop/Копии проектов/UsersProject2.1/UsersProject.iml" afterDir="false" />
+      <change afterPath="$USER_HOME$/Desktop/Копии проектов/untitled1/untitled1.iml" afterDir="false" />
+      <change afterPath="$USER_HOME$/Downloads/ProselyteBookManager/BookManager/BookManager.iml" afterDir="false" />
+      <change afterPath="$USER_HOME$/Downloads/SpringSecurityApp" afterDir="false" />
+      <change afterPath="$USER_HOME$/Downloads/SpringSecurityApp (1).zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/2.3.1.CRUD.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/config/SpringSecurityInitialize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/config/handler/LoginSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/service/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/registration.html" afterDir="false" />
+      <change afterPath="$USER_HOME$/Pictures/zzzzzz.jpg" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/Копии проектов/Hibernate/src/main/java/jm/task/core/jdbc/Main.java" beforeDir="false" afterPath="$USER_HOME$/Desktop/Копии проектов/Hibernate/src/main/java/jm/task/core/jdbc/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/536cb359-f87e-4f99-9758-1573fd0c414e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/536cb359-f87e-4f99-9758-1573fd0c414e.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/config/HibernateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/config/HibernateConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/dao/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/users.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/users.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UsersProject/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/UsersProject/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UsersProject/WEB-INF/classes/web/config/HibernateConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/classes/web/config/HibernateConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UsersProject/WEB-INF/classes/web/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/classes/web/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UsersProject/WEB-INF/classes/web/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/classes/web/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UsersProject/WEB-INF/classes/web/dao/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/classes/web/dao/UserDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UsersProject/WEB-INF/classes/web/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/classes/web/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UsersProject/WEB-INF/classes/web/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/classes/web/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UsersProject/WEB-INF/classes/web/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/classes/web/service/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UsersProject/WEB-INF/pages/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/pages/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UsersProject/WEB-INF/pages/users.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/UsersProject/WEB-INF/pages/users.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/config/HibernateConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/config/HibernateConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/dao/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/dao/UserDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/service/UserServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,14 +94,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jsp File" />
-        <option value="Class" />
         <option value="Interface" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -247,12 +163,11 @@
       </method>
     </configuration>
     <configuration name="Tomcat 9.0.38" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.38" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/UsersProject_war_exploded/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="UsersProject:war exploded">
+        <artifact name="2.3.1.CRUD:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/UsersProject_war_exploded" />
+            <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
@@ -316,6 +231,7 @@
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="UsersProject:war exploded" />
+          <artifact name="2.3.1.CRUD:war exploded" />
         </option>
       </method>
     </configuration>
@@ -393,6 +309,8 @@
       <workItem from="1602090450150" duration="16712000" />
       <workItem from="1602171260272" duration="13914000" />
       <workItem from="1602257285813" duration="29585000" />
+      <workItem from="1603007043858" duration="20572000" />
+      <workItem from="1603094027843" duration="44927000" />
     </task>
     <servers />
   </component>
@@ -427,14 +345,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="876" y="413" key="#Tomcat_Server/0.0.1920.1040@0.0.1920.1040" timestamp="1602096459248" />
-    <state x="552" y="178" width="1092" height="752" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602177074890">
+    <state x="552" y="178" width="1092" height="800" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603122209603">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" width="1092" height="752" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602177074890" />
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1602266204222">
+    <state x="552" y="178" width="1092" height="800" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603122209603" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1603014602510">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1602266204222" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603014602510" />
     <state x="689" y="295" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1602168900026">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -451,70 +369,70 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602171159163" />
-    <state width="1608" height="265" key="GridCell.Tab.0.bottom" timestamp="1602328854994">
+    <state width="1657" height="91" key="GridCell.Tab.0.bottom" timestamp="1603225128004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1608" height="265" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602328854994" />
-    <state width="1608" height="265" key="GridCell.Tab.0.center" timestamp="1602328854994">
+    <state width="1657" height="91" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603225128004" />
+    <state width="1657" height="91" key="GridCell.Tab.0.center" timestamp="1603225128004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1608" height="265" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602328854994" />
-    <state width="1608" height="265" key="GridCell.Tab.0.left" timestamp="1602328854994">
+    <state width="1657" height="91" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603225128004" />
+    <state width="1657" height="91" key="GridCell.Tab.0.left" timestamp="1603225128004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1608" height="265" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602328854994" />
-    <state width="1608" height="265" key="GridCell.Tab.0.right" timestamp="1602328854994">
+    <state width="1657" height="91" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603225128004" />
+    <state width="1657" height="91" key="GridCell.Tab.0.right" timestamp="1603225128004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1608" height="265" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602328854994" />
-    <state width="1608" height="265" key="GridCell.Tab.1.bottom" timestamp="1602328854994">
+    <state width="1657" height="91" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603225128004" />
+    <state width="1657" height="91" key="GridCell.Tab.1.bottom" timestamp="1603225128004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1608" height="265" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602328854994" />
-    <state width="1608" height="265" key="GridCell.Tab.1.center" timestamp="1602328854994">
+    <state width="1657" height="91" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603225128004" />
+    <state width="1657" height="91" key="GridCell.Tab.1.center" timestamp="1603225128004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1608" height="265" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602328854994" />
-    <state width="1608" height="265" key="GridCell.Tab.1.left" timestamp="1602328854994">
+    <state width="1657" height="91" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603225128004" />
+    <state width="1657" height="91" key="GridCell.Tab.1.left" timestamp="1603225128004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1608" height="265" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602328854994" />
-    <state width="1608" height="265" key="GridCell.Tab.1.right" timestamp="1602328854994">
+    <state width="1657" height="91" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603225128004" />
+    <state width="1657" height="91" key="GridCell.Tab.1.right" timestamp="1603225128004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1608" height="265" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602328854994" />
-    <state width="1608" height="265" key="GridCell.Tab.2.bottom" timestamp="1602328854994">
+    <state width="1657" height="91" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603225128004" />
+    <state width="1657" height="91" key="GridCell.Tab.2.bottom" timestamp="1603225128004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1608" height="265" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602328854994" />
-    <state width="1608" height="265" key="GridCell.Tab.2.center" timestamp="1602328854994">
+    <state width="1657" height="91" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603225128004" />
+    <state width="1657" height="91" key="GridCell.Tab.2.center" timestamp="1603225128004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1608" height="265" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602328854994" />
-    <state width="1608" height="265" key="GridCell.Tab.2.left" timestamp="1602328854994">
+    <state width="1657" height="91" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603225128004" />
+    <state width="1657" height="91" key="GridCell.Tab.2.left" timestamp="1603225128004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1608" height="265" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602328854994" />
-    <state width="1608" height="265" key="GridCell.Tab.2.right" timestamp="1602328854994">
+    <state width="1657" height="91" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603225128004" />
+    <state width="1657" height="91" key="GridCell.Tab.2.right" timestamp="1603225128004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1608" height="265" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602328854994" />
-    <state width="1608" height="309" key="GridCell.Tab.3.bottom" timestamp="1602324395101">
+    <state width="1657" height="91" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603225128004" />
+    <state width="1657" height="330" key="GridCell.Tab.3.bottom" timestamp="1603189689791">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1608" height="309" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602324395101" />
-    <state width="1608" height="309" key="GridCell.Tab.3.center" timestamp="1602324395101">
+    <state width="1657" height="330" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603189689791" />
+    <state width="1657" height="330" key="GridCell.Tab.3.center" timestamp="1603189689791">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1608" height="309" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602324395101" />
-    <state width="1608" height="309" key="GridCell.Tab.3.left" timestamp="1602324395101">
+    <state width="1657" height="330" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603189689791" />
+    <state width="1657" height="330" key="GridCell.Tab.3.left" timestamp="1603189689790">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1608" height="309" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602324395101" />
-    <state width="1608" height="309" key="GridCell.Tab.3.right" timestamp="1602324395101">
+    <state width="1657" height="330" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603189689790" />
+    <state width="1657" height="330" key="GridCell.Tab.3.right" timestamp="1603189689791">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1608" height="309" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602324395101" />
+    <state width="1657" height="330" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603189689791" />
     <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1602174088469">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -527,16 +445,5 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="551" y="181" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1602171141935" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/web/controller/UserController.java</url>
-          <line>63</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

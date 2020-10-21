@@ -1,11 +1,12 @@
 package web.controller;
-
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import org.thymeleaf.expression.Lists;
 import web.dao.UserDao;
@@ -16,46 +17,40 @@ import web.service.UserServiceImpl;
 import java.util.List;
 
 @Controller
+
 public class UserController {
+
     @Autowired
-    UserService userService = new UserServiceImpl();
+    UserService userService;
 
 
-    @RequestMapping(value = "/", method = RequestMethod.GET)
+    @RequestMapping(value = {"/", "/login"}, method = RequestMethod.GET)
     public String hello(){
+        return "login";
+    }
+
+    @RequestMapping(value = "registration", method = RequestMethod.GET)
+    public String registr(Model model){
+        User user = new User();
+        model.addAttribute(user);
+        return "registration";
+    }
+    @PostMapping("registration")
+    public String registrNew(@ModelAttribute("user") User user){
+        userService.addUser(user);
+        return "redirect:/login";
+    }
+
+
+    @GetMapping(value = "index")
+    public String viewUser(Model model) {
+        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+        User user = (User) authentication.getPrincipal();
+        model.addAttribute("user", user);
         return "index";
     }
 
-    @PostMapping("users")
-    public String listUsers(@ModelAttribute("user") User user, Model model){
-        List<User> userList = userService.listUsers();
-        model.addAttribute("listUsers", userList);
-        return "users";
-    }
 
-    @PostMapping()
-    public String addUser(@ModelAttribute("user") User user ){
-        userService.addUser(user);
-        return "redirect:/";
-    }
-
-    @RequestMapping("/remove/{id}")
-    public String removeUser(@PathVariable("id") int id ){
-        userService.removeUser(id);
-        return "redirect:/";
-    }
-
-    @GetMapping("edit/{id}")
-    public String editUserForm(@PathVariable("id") int id, Model model){
-        User user = userService.getUserById(id);
-        model.addAttribute("user", user);
-       return "edit";
-    }
-    @PostMapping("/edit")
-    public String editUser(User user){
-         userService.updateUser(user);
-        return "redirect:/";
-    }
 
 
 }
